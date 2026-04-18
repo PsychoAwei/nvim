@@ -1,3 +1,7 @@
+vim.pack.add({
+    -- 文件树
+    "https://github.com/nvim-tree/nvim-tree.lua",
+})
 require("nvim-tree").setup({
     sort = {
         sorter = "case_sensitive",
