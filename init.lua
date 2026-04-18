@@ -2,4 +2,4 @@
 require("core.options")
 require("core.keymaps")
 --插件文件
-require("plugins.pack")
+require("core.pack")

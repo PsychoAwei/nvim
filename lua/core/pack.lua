@@ -9,6 +9,6 @@ vim.pack.add({
   "https://github.com/nvim-lualine/lualine.nvim",
 })
 -- 加载插件配置
-require("plugins.configs.colorscheme")
-require("plugins.configs.nvimtree")
-require("plugins.configs.lualine")
+require("plugins.colorscheme")
+require("plugins.nvimtree")
+require("plugins.lualine")
