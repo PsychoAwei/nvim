@@ -6,7 +6,7 @@ vim.pack.add({
 require("bufferline").setup({
     options = {
         mode = "buffers",                    -- 显示 buffers（也可以改成 "tabs"）
-        themable = true,
+        themable = false,
         numbers = "none",                    -- 可以改成 "ordinal" 显示编号
         close_command = "bdelete! %d",       -- 关闭 buffer 的命令
         right_mouse_command = "bdelete! %d",
@@ -52,3 +52,5 @@ require("bufferline").setup({
         },
     },
 })
+
+
